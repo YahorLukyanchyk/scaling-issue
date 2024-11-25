@@ -2,8 +2,9 @@
     "name": "yahor-lukyanchyk/scaling-issue",
     "autoload": {
         "psr-4": {
-            "YahorLukyanchyk\\ScalingIssue\\": "src/"
-        }
+            "App\\": "src/"
+        },
+        "classmap": ["src"]
     },
     "authors": [
         {
@@ -11,5 +12,8 @@
             "email": "yahorlukyanchyk@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.2",
+        "lukyanchyk/bracketed-problem-library": "dev-main"
+    }
 }
