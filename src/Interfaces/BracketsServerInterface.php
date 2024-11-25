@@ -3,5 +3,5 @@
 namespace Interfaces;
 
 interface BracketsServerInterface {
-    public function start($port);
+    public function start(int $port): void;
 }

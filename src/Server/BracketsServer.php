@@ -11,7 +11,7 @@ class BracketsServer implements BracketsServerInterface
 
     private $address = '127.0.0.1';
 
-    public function start($port): void
+    public function start(int $port): void
     {
         $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 
