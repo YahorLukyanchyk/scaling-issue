@@ -1,0 +1,15 @@
+{
+    "name": "yahor-lukyanchyk/scaling-issue",
+    "autoload": {
+        "psr-4": {
+            "YahorLukyanchyk\\ScalingIssue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yahor Lukyanchyk",
+            "email": "yahorlukyanchyk@gmail.com"
+        }
+    ],
+    "require": {}
+}
