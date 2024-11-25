@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "be80b97381cc24b638c4e91f87f9273e",
+    "packages": [
+        {
+            "name": "lukyanchyk/bracketed-problem-library",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/YahorLukyanchyk/bracketed-problem-library.git",
+                "reference": "8b2c9e5ae5c4b88008f17159b3aa6fcf755b878e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/YahorLukyanchyk/bracketed-problem-library/zipball/8b2c9e5ae5c4b88008f17159b3aa6fcf755b878e",
+                "reference": "8b2c9e5ae5c4b88008f17159b3aa6fcf755b878e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tests\\": "tests/",
+                    "BracketsChecker\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Yahor Lukyanchyk",
+                    "email": "yahorlukyanchyk@gmail.com"
+                }
+            ],
+            "description": "Simple library to compare 2 rows with ( and )",
+            "support": {
+                "issues": "https://github.com/YahorLukyanchyk/bracketed-problem-library/issues",
+                "source": "https://github.com/YahorLukyanchyk/bracketed-problem-library/tree/main"
+            },
+            "time": "2024-11-25T08:43:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "lukyanchyk/bracketed-problem-library": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.2"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
